@@ -1,0 +1,218 @@
+* {
+margin: 0;
+}
+
+aside {
+    float: right;
+    padding-left: 20px;
+    border-left: 3px solid black;
+    width: 75%;
+}
+
+
+header {
+    padding: 20px;
+    background-color: grey;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 18px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+    text-decoration: blue underline;
+}
+
+div {
+background-color: lightseagreen;
+text-align: right;
+padding: 20px;
+padding-right: 10%;
+font-size: 22px;
+}
+
+.aboutme h3{
+margin-top: 20px;
+font-size: 25px;
+}
+
+.aboutme p {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Horiseon {
+    background-image: url('../Images/Horiseon.png');
+  border: 5px solid #7fffd4;
+    width: 80%;
+    height: 60vh;
+    float: right;
+    padding: 5px;
+    margin-right: 7%;
+    filter: blur(4px);
+    background-size: 100% 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.Horiseon:hover{
+    filter: blur(0px);
+}
+
+.Horiseon p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: aquamarine;
+    width: 130px;
+    filter: blur(0px);
+}
+
+.Repo {
+    background-image: url('../Images/repo.png');
+  border: 5px solid #7fffd4;
+    width: 40%;
+    height: 40vh;
+    float: left;
+    padding: 5px;
+    margin-right: 7%;
+    filter: blur(4px);
+    background-size: 100% 100%;
+    margin-bottom: 2%;
+}
+
+.Repo:hover{
+    filter: blur(0px);
+}
+
+.Repo p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: aquamarine;
+    width: 130px;
+    filter: blur(0px);
+}
+
+.Prework {
+    background-image: url('../Images/prework.png');
+  border: 5px solid #7fffd4;
+    width: 40%;
+    height: 40vh;
+    float: Right;
+    padding: 5px;
+    margin-right: 7%;
+    filter: blur(4px);
+    background-size: 100% 100%;
+    margin-bottom: 2%;
+}
+
+.Prework:hover{
+    filter: blur(0px);
+}
+
+.Prework p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: aquamarine;
+    width: 130px;
+    filter: blur(0px);
+}
+
+.w3school {
+    background-image: url('../Images/w3school.png');
+  border: 5px solid #7fffd4;
+    width: 40%;
+    height: 40vh;
+    float: left;
+    padding: 5px;
+    margin-right: 7%;
+    filter: blur(4px);
+    background-size: 100% 100%;
+    margin-bottom: 2%;
+}
+
+.w3school:hover{
+    filter: blur(0px);
+}
+
+.w3school p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: aquamarine;
+    width: 130px;
+    filter: blur(0px);
+}
+
+.GH {
+    background-image: url('../Images/gh-ev.png');
+  border: 5px solid #7fffd4;
+    width: 40%;
+    height: 40vh;
+    float: Right;
+    padding: 5px;
+    margin-right: 7%;
+    filter: blur(4px);
+    background-size: 100% 100%;
+    margin-bottom: 2%;
+}
+
+.GH:hover{
+    filter: blur(0px);
+}
+
+.GH p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: aquamarine;
+    width: 130px;
+    filter: blur(0px);
+}
+
+.work h3{
+    margin-top: 2%;
+    font-size: 25px;
+    }
+    
+ .work p {
+        text-align: center;
+    }
+
+footer aside ul li{
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 20px;
+    border-bottom: 3px solid black;
+}
+
+footer aside ul li:hover{
+    background-color: aquamarine;
+}
+
+.contactme h3{
+    margin-top: 80%;
+    font-size: 25px;
+    }
+    
+.contactme p {
+        text-align: center;
+        padding-bottom: 2%;
+    }
